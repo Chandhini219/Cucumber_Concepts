@@ -1,0 +1,65 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2021-03-19T05:22:56.098Z",
+        "line": 4,
+        "name": "login scenario",
+        "description": "",
+        "id": "open-the-orangehrm.com;login-scenario",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 9074270100,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "the user is entering into the portal",
+            "match": {
+              "location": "stepDefinition.LoginPage1.the_user_is_entering_into_the_portal()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 288229400,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user is typing in the username and password",
+            "match": {
+              "location": "stepDefinition.LoginPage1.user_is_typing_in_the_username_and_password()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 19300170500,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "the user is click on the submit button.",
+            "match": {
+              "location": "stepDefinition.LoginPage1.the_user_is_click_on_the_submit_button()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@runnable"
+          }
+        ]
+      }
+    ],
+    "name": "open the orangeHrm.com",
+    "description": "",
+    "id": "open-the-orangehrm.com",
+    "keyword": "Feature",
+    "uri": "file:FeatureFiles/LoginPage.feature",
+    "tags": []
+  }
+]
